@@ -1,1 +1,1 @@
- Email Messgaing Project 
+Algorithms and data structures repository. 
