@@ -40,7 +40,7 @@ a = [5 for i in range(10)]
 
 b = ['Hi' for i in range(5)]
 
-# print(b)
+# print(len(b))
 
 randomArr = ['oranges', 'bananas', 5, False]
 # for i in randomArr:
@@ -51,7 +51,34 @@ randomArr = ['oranges', 'bananas', 5, False]
 # for i in 'raphael':
 #     print(i)
 
-for i in range(2,13,2):
-    print(i)
-else:
-    print('Finished')
+# for i in range(2,13,2):
+#     print(i)
+# else:
+#     print('Finished')
+
+adj = ['red', 'blue', 'white']
+fruits = ['melon', 'banana', 'grapes']
+
+# for i in adj:
+#     for x in fruits:
+#         print(i,x)
+# i = 1
+# while i < 10:
+#     print(i)
+#     if i == 7:
+#         break
+#     i += 1
+
+# i = 0
+# while i < 6:
+#     i += 1
+#     if i == 3:
+#         continue
+#     print(i)
+
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+# else: 
+#     print('i is now 6 and the loop stops')
