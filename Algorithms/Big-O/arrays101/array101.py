@@ -22,9 +22,22 @@ class Person:
     def greet(self):
         print('Hello, my name is '+ self.name + ' and I am '+ str(self.age) + ' years old')
 
-person1 = Person('raphael', 33)
-print(person1.age)
-person1.age = 40
-print(person1.age)
-del person1.age
-print(person1.age)
+# person1 = Person('raphael', 33)
+# print(person1.age)
+# person1.age = 40
+# print(person1.age)
+# del person1.age
+# print(person1.age)
+
+int = [5]*3
+# print(int)
+
+int2 = [None]*3
+# print(int2[1])
+
+a = [5 for i in range(10)]
+# print(a)
+
+b = ['Hi' for i in range(5)]
+
+# print(b)
