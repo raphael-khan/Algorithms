@@ -41,3 +41,17 @@ a = [5 for i in range(10)]
 b = ['Hi' for i in range(5)]
 
 # print(b)
+
+randomArr = ['oranges', 'bananas', 5, False]
+# for i in randomArr:
+#     print(i)
+#     if i == 5:
+#         break
+
+# for i in 'raphael':
+#     print(i)
+
+for i in range(2,13,2):
+    print(i)
+else:
+    print('Finished')
