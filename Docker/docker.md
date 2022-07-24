@@ -12,3 +12,9 @@ docker container rm id of the container or first 3 characters of the id.
 
 docker images
 // to check the images on your machine that have already been pulled.
+
+docker ps
+// to check the containers currently running.
+
+docker container exec -it myginx bash
+//to bash into a container and then do ls to see the files in it.
