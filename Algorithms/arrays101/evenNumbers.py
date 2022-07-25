@@ -1,6 +1,9 @@
 # nums = [879, 45]
 # print(len(str(nums[0])))
 
+from typing import List
+
+
 nums = [12,345,2,6,7896]
 
 def findNumbers():
@@ -8,14 +11,15 @@ def findNumbers():
         for i in range(0,len(nums)):
             if len(str(nums[i])) % 2 == 0:
                 count +=1 
-            else:
-                count = count
         return count
+# not declarative 
+# we are constantly changing the value of count. 
+# we only get the value of count once the loop is finsihed. 
+# not time and space efficient. 
 
-print(findNumbers())
 
-# print(2%2)
-# print(3%2)
-# print(1%2)
-# print(1%2)
-# print(4%2)
+
+def findNumbers(self, nums: List[int]) -> int:
+    return len([i for i in nums if len(str(i)) % 2 == 0])
+
+# print(findNumbers(nums,nums))
