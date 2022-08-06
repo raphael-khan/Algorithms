@@ -1,1 +1,1 @@
-Algorithms and data structures repository. Leetcode Practice. 
+Algorithms and data structures repository. Leetcode Practice in Python. 
