@@ -9,8 +9,8 @@ from collections import Counter
 # c = (Counter(nums1))
 # print(c[3])
 
-# nums1 = [4,9,5]
-# nums2 = [9,4,9,8,4]
+nums1 = [4,9,5]
+nums2 = [9,4,9,8,4]
 
 def intersect():
     c = Counter(nums1) # {4:1 , 9:1, 5:1}
@@ -27,8 +27,6 @@ def intersect():
 def intersectSorted():
     i,j = 0, 0 
     output = []
-    nums1 = [4,9,5]
-    nums2 = [9,4,9,8,4]
     nums1, nums2 = sorted(nums1), sorted(nums2)
     print(nums1, nums2)
     while i < len(nums1) and j < len(nums2):
