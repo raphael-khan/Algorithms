@@ -28,7 +28,9 @@ class Solution:
         l.next = l.next.next
 
         return dummy.next
+        
 
+        #hello world.
 
 
 
