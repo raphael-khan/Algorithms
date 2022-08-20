@@ -10,3 +10,21 @@ nums2 = [2,5,6]
 n = 3
 Output = [1,2,2,3,5,6]
 
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        i,j = 0, 0
+        while i < len(nums1) and j < len(nums2):
+            if nums1[i] < nums2[j]:
+                i += 1 
+            elif nums1[i] == nums2[j]:
+                nums1[i + 1] = nums2[j]
+                i += 1
+                j =+ 1
+            elif nums2[j] > nums1[i]:
+                nums1[i + 1] == nums2[j]
+                i += 1
+                j += 1
+            else: 
+                nums1[ i - 1] == nums2[j]
+        return nums1
+
