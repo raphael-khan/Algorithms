@@ -7,12 +7,12 @@
 n = 5, 
 bad = 4
 Output= 4
-
+[1,2,3,4,5]
 def firstBadverison(n):
         #call API every single time.
         #result of API is true
         #return that value of n. 
-# if bad version is 4 then we defintely do not want to check after 4.
+# if bad version is 4 then we definitely do not want to check after 4.
     start = 1
     end = n
     while start < n: 
@@ -21,5 +21,4 @@ def firstBadverison(n):
             end = mid
         else:
             start = mid + 1
-            
     return start

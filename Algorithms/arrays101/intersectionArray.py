@@ -28,7 +28,6 @@ def intersectSorted():
     i,j = 0, 0 
     output = []
     nums1, nums2 = sorted(nums1), sorted(nums2)
-    print(nums1, nums2)
     while i < len(nums1) and j < len(nums2):
         if nums1[i] < nums2[j]:
             i += 1
