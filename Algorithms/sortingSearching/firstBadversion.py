@@ -12,7 +12,7 @@ def firstBadverison(n):
         #call API every single time.
         #result of API is true
         #return that value of n. 
-# if bad version is 4 then we definitely do not want to check after 4.
+# if bad version is 4 then we definitely do not want to check after 4. Best Algo to start learning.
     start = 1
     end = n
     while start < n: 
